@@ -1,0 +1,186 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="healthzone.com.example.kuldeep.healthzone.UserDetail"
+    android:background="@android:color/holo_orange_light"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UserDetail"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="30dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical">
+      <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="22dp"
+            android:textColor="#ffffffff"
+            android:hint="Name"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="2dp"
+
+            android:layout_above="@+id/editText2"
+            android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView6"
+        android:layout_marginBottom="2dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="22dp"
+        android:textColor="#ffffffff"
+        android:hint="Age"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="22dp"
+        android:textColor="#ffffffff"
+        android:hint="Weight"
+        android:paddingLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+        android:paddingLeft="10dp"
+            android:id="@+id/spinner1"
+            android:entries="@array/dicease"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_marginBottom="2dp"
+             android:textSize="22dp"
+        />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:textSize="22dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/spinner2"
+                android:entries="@array/height"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginBottom="2dp" />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:id="@+id/spinner3"
+                android:paddingLeft="10dp"
+                android:textSize="22dp"
+                android:entries="@array/choice"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginBottom="2dp" />
+
+
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:textSize="22dp"
+                android:id="@+id/spinner4"
+                android:paddingLeft="10dp"
+                android:entries="@array/ExtraDetail"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginBottom="2dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:textSize="22dp"
+            android:id="@+id/spinner6"
+            android:paddingLeft="10dp"
+            android:entries="@array/IncreaseDecreaseWeight"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_marginBottom="2dp" />
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:textSize="22dp"
+            android:id="@+id/spinner7"
+            android:paddingLeft="10dp"
+            android:entries="@array/ChartChoice"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_marginBottom="2dp" />
+
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="2dp"
+            android:text="Blood Pressure Problem"
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:textSize="22dp"
+            android:textColor="#daf8f8f8"
+            android:background="@android:color/holo_orange_dark" />
+
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:text="Diabetes"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/checkBox2"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="22dp"
+            android:textColor="#daf8f8f8"
+            android:layout_alignBottom="@+id/checkBox"
+            android:layout_alignParentEnd="true" />
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:text="Headeque"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/checkBox3"
+            android:background="@android:color/holo_orange_dark"
+            android:textSize="22dp"
+            android:textColor="#daf8f8f8"
+            android:layout_alignBottom="@+id/checkBox"
+            android:layout_alignParentEnd="true" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView11"
+            android:background="#ffff7412"
+            android:id="@+id/userDetailId"
+            android:textSize="22dp" />
+    </LinearLayout></ScrollView>
+
+
+
+
+</RelativeLayout>

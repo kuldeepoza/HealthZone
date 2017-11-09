@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HealthZone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDr">open</string>
+    <string name="closeDr">close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstGuidline">Governing bodies should be no bigger than necessary to secure the range of skills they need. Smaller governing bodies are likely to be more cohesive and dynamic.
+       .A key consideration in the appointment and election of all new governors should
+be the skills and experience the governing body needs to be effective. The skills
+they need are a matter for governing bodies to decide having regard to the
+Department’s Competency Framework for governance4.Governing bodies should use a skills audit to identify any specific gaps that need
+to be filled in the skills, knowledge and experience of existing governors. Before being nominated for election or appointment, governing bodies should help
+all prospective governors to understand the role of a governor and the governing
+bodies’ code of conduct. Regulations specify that anyone appointing governors to the governing body must
+only appoint someone they believe has the skills to contribute to the effective
+governance and success of the school. Their decisions should be informed by
+interviews and references and made in light of the skills that governing bodies
+identify that they need.
+    </string>
+    <string name="seccondGuidline">Eat a high-protein breakfast.Avoid sugary drinks and fruit juice.
+Drink water a half hour before meals.
+Choose weight loss-friendly foods (see list).
+Eat soluble fiber.
+Drink coffee or tea.
+Eat mostly whole, unprocessed foods.
+Eat your food slowly.</string>
+    <string name="thirdGuidline">A sliced Carrot looks like the human eye. According to science, eating carrots greatly enhances blood flow to the eyes. Carrot gets their orange color from a plant chemical called beta-carotene, which reduces the risk of developing cataracts. The chemical also protects against macular degeneration an age-related sight problem that affects one in four individuals over the age of 65. If one tries to pop a pill of beta-carotene it doesn’t have the same effect, says scientists at John Hopkins Hospital in Baltimore, USA
+    A Tomato has four chambers and is red in color, so also the heart is red and has four chambers. Research has confirmed that tomatoes are loaded with lycopine and it is indeed pure heart and blood food.</string>
+    <string name="title_activity_user_detail">UserDetail</string>
+
+    <string-array name="IncreaseDecrease">
+        <item>Increase Weight</item>
+        <item>Decrease Weight</item>
+    </string-array>
+    <string-array name="IncreaseDecreaseWeight">
+        <item>Goal Weight</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="age">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="height">
+        <item>Height</item>
+        <item>2-3</item>
+        <item>3-4</item>
+        <item>4-5</item>
+        <item>5-6</item>
+        <item>6-7</item>
+        <item>7-8</item>
+    </string-array>
+    <string-array name="ExtraDetail">
+        <item>Body-Part</item>
+        <item>Arm</item>
+        <item>Belly</item>
+        <item>Brain</item>
+        <item>Chest</item>
+        <item>Hand</item>
+        <item>Heart</item>
+        <item>Kidney</item>
+        <item>Knees</item>
+        <item>Leg</item>
+        <item>Liver</item>
+        <item>Lungs</item>
+        <item>Neck</item>
+        <item>Shoulder</item>
+        <item>Thyroid</item>
+        <item>Wriest</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="ChartChoice">
+        <item>Chart Choice</item>
+        <item>15 day chart</item>
+        <item>1 month chart</item>
+    </string-array>
+    <string-array name="dicease">
+        <item>Dicease</item>
+        <item>AIDS</item>
+        <item>Arthritis</item>
+        <item>Asthma</item>
+        <item>Bronchitis</item>
+        <item>Conjunctivitis</item>
+        <item>Dermatitis</item>
+        <item>Diabetes</item>
+        <item>Eczema</item>
+        <item>Ear Infections</item>
+        <item>Kidney Stones</item>
+        <item>Pain</item>
+        <item>any body part</item>
+        <item>Chickenpox</item>
+        <item>Cholesterol</item>
+
+        <item>None</item>
+    </string-array>
+    <string-array name="choice">
+        <item>Choice</item>
+        <item>veg</item>
+        <item>liquide</item>
+        <item>food</item>
+    </string-array>
+
+    <string name="title_activity_chart">Chart</string>
+    <string name="title_activity_health_care">HealthCare</string>
+    <string name="title_activity_health_care_images">HealthCareImages</string>
+    <string name="title_activity_care_menu">CareMenu</string>
+    <string name="title_activity_yoga">Yoga</string>
+    <string name="title_activity_dicease">Dicease</string>
+    <string name="title_activity_yoga_image">YogaImage</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_activity_exercise_reminder">ExerciseReminder</string>
+    <string name="title_activity_walking_reminder">WalkingReminder</string>
+    <string name="title_activity_chart_demo_fragment">ChartDemoFragment</string>
+    <string name="title_activity_breakfast">Breakfast</string>
+    <string name="title_activity_lunch">Lunch</string>
+    <string name="title_activity_snacks">Snacks</string>
+    <string name="title_activity_dinner">Dinner</string>
+    <string name="title_activity_exercise">Exercise</string>
+    <string name="title_activity_yoga_new">YogaNew</string>
+    <string name="title_activity_disease_new">DiseaseNew</string>
+
+</resources>

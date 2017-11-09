@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="healthzone.com.example.kuldeep.healthzone.HealthCareImages"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Exercise Image"
+        android:id="@+id/textView18"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#ffffffff" />
+    <ScrollView
+android:layout_below="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+    <LinearLayout
+        android:layout_below="@+id/textView18"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview">
+
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+
+            android:id="@+id/exImage1"
+            android:layout_below="@+id/textView18"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/exercise_abs_ab_crunch"
+            android:scaleType="fitXY" />
+
+
+        <TextView
+
+            android:layout_marginTop="1dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="~> ab_crunch_machine"
+            android:id="@+id/textView101"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/imageView2"
+            android:background="#eeff9821"
+            android:autoText="false"
+            android:textColor="#e2f5ffda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="--> 4 set and 10-15 raps"
+            android:id="@+id/textView102"
+
+            android:layout_below="@+id/textView18"
+
+          android:textSize="18dp"
+          android:textColor="#bb000000"
+          android:paddingLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="-->15 Minutes Daily"
+            android:id="@+id/textView103"
+            android:layout_below="@+id/imageView2"
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/exImage2"
+        android:src="@drawable/exercise_abs_ab_roller"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/textView19"
+        />
+
+
+        <TextView
+
+            android:layout_marginTop="1dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="~> ab_roller"
+            android:id="@+id/textView104"
+            android:paddingLeft="15dp"
+
+            android:layout_below="@+id/imageView2"
+            android:background="#eeff9821"
+            android:autoText="false"
+            android:textColor="#e2f5ffda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="--> 4 set and 10-15 raps"
+            android:id="@+id/textView105"
+
+            android:layout_below="@+id/textView18"
+
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="-->15 Minutes Daily"
+            android:id="@+id/textView106"
+            android:layout_below="@+id/imageView2"
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/exImage3"
+            android:src="@drawable/exercise_abs_barbell"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/textView19"
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="1dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="~> barbell_ab_rollout_on_knees"
+            android:id="@+id/textView107"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/imageView2"
+            android:background="#eeff9821"
+            android:autoText="false"
+            android:textColor="#e2f5ffda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="--> 4 set and 10-15 raps"
+            android:id="@+id/textView108"
+
+            android:layout_below="@+id/textView18"
+
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="-->15 Minutes Daily"
+            android:id="@+id/textView109"
+            android:layout_below="@+id/imageView2"
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/exImage4"
+            android:src="@drawable/exercise_abs_bottoms_up"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/textView19"
+            />
+
+
+        <TextView
+
+            android:layout_marginTop="1dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="~> bottoms_up"
+            android:id="@+id/textView110"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/imageView2"
+            android:background="#eeff9821"
+            android:autoText="false"
+            android:textColor="#e2f5ffda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="--> 4 set and 10-15 raps"
+            android:id="@+id/textView111"
+
+            android:layout_below="@+id/textView18"
+
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="-->15 Minutes Daily"
+            android:id="@+id/textView112"
+            android:layout_below="@+id/imageView2"
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/exImage5"
+            android:src="@drawable/exercise_abs_sit_up"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/textView19"
+           />
+
+
+        <TextView
+
+            android:layout_marginTop="1dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="~> Ab Roller"
+            android:id="@+id/textView113"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/imageView2"
+            android:background="#eeff9821"
+            android:autoText="false"
+            android:textColor="#e2f5ffda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="--> 4 set and 10-15 raps"
+            android:id="@+id/textView114"
+
+            android:layout_below="@+id/textView18"
+
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="-->15 Minutes Daily"
+            android:id="@+id/textView115"
+            android:layout_below="@+id/imageView2"
+            android:textSize="18dp"
+            android:textColor="#bb000000"
+            android:paddingLeft="20dp" />
+</LinearLayout></ScrollView>
+</RelativeLayout>

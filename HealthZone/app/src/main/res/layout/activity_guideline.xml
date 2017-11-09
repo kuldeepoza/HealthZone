@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="healthzone.com.example.kuldeep.healthzone.HealthCare"
+    android:background="@android:color/holo_orange_light">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Guideline"
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
+    <ScrollView
+        android:layout_below="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        >
+
+    <LinearLayout
+        android:layout_above="@+id/textView4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview16">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Guide for maintain body"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:background="#d2ffbb33"
+        android:layout_marginBottom="3dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/firstGuidline"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight and mesurement guidence"
+        android:id="@+id/button3"
+        android:background="#d2ffbb33"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="3dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/seccondGuidline"
+        android:id="@+id/textView8"
+
+        android:layout_below="@+id/button3"
+
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dietry guidelines and vegetarians"
+        android:id="@+id/button4"
+        android:background="#d2ffbb33"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView7"
+        android:text="@string/thirdGuidline"
+        android:layout_below="@id/button4"
+        android:layout_alignParentStart="true"
+        android:visibility="gone" />
+
+</LinearLayout></ScrollView>
+</RelativeLayout>

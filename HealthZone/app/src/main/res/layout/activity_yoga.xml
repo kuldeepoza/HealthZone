@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="healthzone.com.example.kuldeep.healthzone.HealthCare"
+    android:background="@android:color/holo_orange_light">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Yoga"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:id="@+id/textView5"
+        />
+    <ScrollView
+        android:layout_below="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        >
+
+        <LinearLayout
+            android:layout_above="@+id/textView5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview16">
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Arms"
+                android:id="@+id/button17"
+
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Belly"
+                android:id="@+id/button18"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Brain"
+                android:id="@+id/button19"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Chest"
+                android:id="@+id/button20"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hands"
+                android:id="@+id/button21"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Heart"
+                android:id="@+id/button22"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kidney"
+                android:id="@+id/button23"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Knees"
+                android:id="@+id/button24"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Leg"
+                android:id="@+id/button25"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Liver"
+                android:id="@+id/button26"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Shoulder"
+                android:id="@+id/button27"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Neck"
+                android:id="@+id/button28"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Thyroid"
+                android:id="@+id/button29"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Wriest"
+                android:id="@+id/button30"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/holo_orange_light"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
